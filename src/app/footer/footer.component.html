@@ -1,0 +1,7 @@
+<footer class="footer bg-dark rounded-top text-center">
+    <div class="autors container py-2">
+        <a class="text-white my-2" *ngFor="let autor of autors" href="{{autor.link}}" target="_blank">
+            &copy; {{autor.name + ' ' + autor.surname}}
+        </a>
+    </div>
+</footer>    
